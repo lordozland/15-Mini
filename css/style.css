@@ -1,3 +1,20 @@
 * {
     font-family: 'Lora', serif;
 }
+
+.head {
+    font-size: 300%;
+}
+
+.tag {
+    font-size: 150%;
+}
+
+.viewbutz {
+    border-radius: 50px;
+}
+
+
+.makebutz {
+    border-radius: 50px;
+}
