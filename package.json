@@ -1,0 +1,22 @@
+{
+  "name": "15-hotrestaurant",
+  "version": "1.0.0",
+  "description": "* Description: Basic app demonstrating Node and Express with vanilla javascript. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list. * Live Demo: <https://hot-restaurant-fsf.herokuapp.com/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordozland/15-Mini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordozland/15-Mini/issues"
+  },
+  "homepage": "https://github.com/lordozland/15-Mini#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
