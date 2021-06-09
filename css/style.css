@@ -52,7 +52,7 @@ body {
     color: white;
 }
 
-.innerBox {
+.innerBox, .reservationsBox {
     background-color: var(--gritz);
     border-radius: 50px;
     text-align: center;
