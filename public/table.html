@@ -5,16 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Tables</title>
 </head>
 <body>
 
-    <div class="row">
+    <div class="row botz">
         <div class="col s12" style="text-align: center;">
-            <div class="col s12">words</div>
-            <div class="col s6">words</div>
-            <div class="col s6">words</div>
+            <div class="head col s12">Hot Restaurant</div>
+            <div class="boxing col s12">
+                <div class="tag col s12">Current Reservations and Waiting List</div>
+                <div class="home col s5 push-s1"><button class="homebutz z-depth-3" onclick="home()">View Tables</button></div>
+                <div class="makeRes col s5 push-s1"><button class="makebutz z-depth-3" onclick="makeRes()">Make Reservation</button></div>
+            </div>
         </div>
+    </div>
+
+    <div class="dumpBox row">
+        <div class="innerBox col s12">Tables</div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

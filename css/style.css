@@ -22,7 +22,7 @@ body {
     border-radius: 25px;
 }
 
-.tag {
+.tag, .tableHeader {
     font-size: 150%;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -50,4 +50,10 @@ body {
     border-radius: 50px;
     background-color: red;
     color: white;
+}
+
+.innerBox {
+    background-color: var(--gritz);
+    border-radius: 50px;
+    text-align: center;
 }
