@@ -45,6 +45,7 @@ body {
     border-radius: 50px;
     background-color: blue;
     color: white;
+    font-family: 'Lora', serif;
 }
 
 
@@ -52,16 +53,25 @@ body {
     border-radius: 50px;
     background-color: red;
     color: white;
+    font-family: 'Lora', serif;
 }
 
 .homebutz {
     border-radius: 50px;
     background-color: purple;
     color: white;
+    font-family: 'Lora', serif;
 }
 
 .innerBox, .reservationsBox {
     background-color: var(--gritz);
     border-radius: 50px;
     text-align: center;
+}
+
+.Submitted {
+    border-radius: 50px;
+    background-color: yellow;
+    color: black;
+    font-family: 'Lora', serif;
 }
