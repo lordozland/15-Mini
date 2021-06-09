@@ -34,7 +34,7 @@ body {
     background-color: var(--gritz);
 }
 
-.viewTab, .makeRes {
+.viewTab, .makeRes, .home {
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -49,6 +49,12 @@ body {
 .makebutz {
     border-radius: 50px;
     background-color: red;
+    color: white;
+}
+
+.homebutz {
+    border-radius: 50px;
+    background-color: purple;
     color: white;
 }
 

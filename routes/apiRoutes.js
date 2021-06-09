@@ -1,9 +1,0 @@
-
-
-function viewTab() {
-    
-};
-
-function makeRes() {
-
-};
