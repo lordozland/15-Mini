@@ -5,6 +5,7 @@
 :root {
     --bodz: teal;
     --heads: tomato;
+    --gritz: rgb(197, 197, 197);
     
 
 }
@@ -25,6 +26,12 @@ body {
     font-size: 150%;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.boxing {
+    margin: 40px;
+    border-radius: 25px;
+    background-color: var(--gritz);
 }
 
 .viewTab, .makeRes {
