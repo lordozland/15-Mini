@@ -16,10 +16,11 @@ body {
 
 .head {
     font-size: 300%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 25px;
     background-color: var(--heads);
     border-radius: 25px;
+    text-align: center;
 }
 
 .tag, .tableHeader {

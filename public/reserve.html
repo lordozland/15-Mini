@@ -11,33 +11,33 @@
     <title>Reservations</title>
 </head>
 <body>
-
+    <div class="head row">Hot Restaurant</div>
     <div class="row botz">
-        <div class="col s12" style="text-align: center;">
-            <div class="head col s12">Hot Restaurant</div>
+        <div class="col s6" style="text-align: center;">
             <div class="boxing col s12">
                 <div class="tag col s12">Book your seat before they are all gone!</div>
                 <div class="viewTab col s5 push-s1"><button class="viewbutz z-depth-3" onclick="viewTab()">View Tables</button></div>
                 <div class="home col s5 push-s1"><button class="homebutz z-depth-3" onclick="home()">Home</button></div>
             </div>
         </div>
-    </div>
-    <div class="row reservationsBox">
-        <div class="tableHeader col s12">Stub Ticket</div>
-        <div class="col s12">
-            <form action="/action_page.php" method="get">
-                <label for="custName">Name:</label>
-                <input type="text" id="custName" name="custName"><br><br>
-                <label for="Phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone"><br><br>
-                <label for="Email">Email:</label>
-                <input type="text" id="email" name="email"><br><br> 
-                <label for="Unique">Unique Id:</label>
-                <input type="text" id="Unique" name="Unique"><br><br>
-                <input type="submit" value="Submit">
-              </form>
+        <div class="col s6 reservationsBox">
+            <div class="tableHeader col s12">Stub Ticket</div>
+            <div class="col s12">
+                <form action="/action_page.php" method="get">
+                    <label for="custName">Name:</label>
+                    <input type="text" id="custName" name="custName"><br><br>
+                    <label for="Phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone"><br><br>
+                    <label for="Email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br> 
+                    <label for="Unique">Unique Id:</label>
+                    <input type="text" id="Unique" name="Unique"><br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
         </div>
     </div>
+
 
     <div class="uralz row">
         <div class="col s2 push-s3">API Table Link</div>
